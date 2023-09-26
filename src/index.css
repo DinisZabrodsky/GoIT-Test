@@ -1,4 +1,7 @@
-@import-normalize; /* bring in normalize.css styles */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Montserrat&display=swap');
+
+
+
 
 body {
   margin: 0;
@@ -13,3 +16,64 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --primariColor: #121417;
+  --primariArticleColor: #3470FF;
+}
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  border: none;
+}
+
+img {
+   display: block;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
+}
+
+
+.titel {
+  margin: 0;
+  padding: 0;
+
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+
+  color: var(--primariColor);
+
+}
+
+p > span {
+  color: var(--primariArticleColor);
+}
+
+.conteiner {
+  display: block;
+  margin: 20px auto 40px;
+  width: 1440px;
+  padding: 0 128px;
+
+}
+

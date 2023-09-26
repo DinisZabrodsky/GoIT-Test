@@ -1,0 +1,108 @@
+.form {
+    display: flex;
+    align-items: flex-end;
+    
+    margin-left: auto;
+    margin-right: auto;
+  
+    gap: 18px;
+    max-width: 860px;
+  }
+  
+  .form label {
+        
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+  
+        color: #8A8A89;
+        
+    }
+  
+  .selectorOne {
+    margin-top: 8px;
+    width: 224px;
+  }
+  
+  .selectorOne  > div {
+  
+        border: none;
+        background-color: #F7F7FB;
+  }
+    
+  
+  .selectorTwo {
+    margin-top: 8px;
+    width: 125px;
+  }
+  
+  .selectorTwo  > div {
+        border: none;
+        background-color: #F7F7FB;
+    
+  }
+  
+    
+  .carMileage div {
+        display: flex;
+        margin-top: 8px;
+    }
+  
+  .carMileage input {
+        display: block;
+        width: 160px;
+        max-height: 38px;
+  
+        padding: 8px 20px;
+  
+        font-family: Manrope;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+  
+        color: #121417;
+        border: none;
+        background-color: #F7F7FB;
+  }
+  .carMileage input::placeholder {
+            color: #121417;
+            font-size: 18px;
+        }
+
+  .carMileage input:nth-of-type(1) {
+            border-radius: 14px 0px 0px 14px;
+            border-right: 1px solid rgba(138, 138, 137, 0.20);
+        
+        }
+  
+  .carMileage input:nth-of-type(2) {
+            border-radius: 0px 14px 14px 0px;
+  }
+  
+.searchButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 136px;
+    height: 38px;
+    padding: 14px 44px;
+  
+    
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.42; 
+  
+    color: #FFF;
+    border: none;
+    border-radius: 12px;
+    background-color: #3470FF;
+  
+    cursor: pointer;
+  }
+  
