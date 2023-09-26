@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://DinisZabrodsky.github.io/GoIT-Test/",
   "dependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.21.0",
     "axios": "^1.5.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",

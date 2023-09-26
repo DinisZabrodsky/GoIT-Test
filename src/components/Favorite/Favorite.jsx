@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-import { DataCars, allCars } from "service/contorler"
+import {allCars } from "service/contorler"
 import { CardItem } from "../CardItem/CardItem"
 import { user } from "service/user"
 
