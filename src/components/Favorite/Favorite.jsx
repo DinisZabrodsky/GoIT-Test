@@ -82,7 +82,7 @@ export const Favorite = () => {
         {showModal && <CarModal close={handleClosemodal} data={modalData}/>}
 
         <ul className={css.list}>
-            {carData.map(Car => {
+            {carData.length !== 0 && carData.map(Car => {
                 if(Car.favorite) {
                     return <CardItem key={Car.id} id={Car.id} make={Car.make} model={Car.model} year={Car.year} img={Car.img} rentalPrice={Car.rentalPrice} favorite={Car.favorite} address={Car.address} rentalCompany={Car.rentalCompany} type={Car.type} accessories={Car.accessories} hadeleFavorite={hadeleFavorite} btnLearn={btnLearn}/>
                 }
